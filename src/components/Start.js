@@ -6,7 +6,7 @@ const Start = ({ onQuizStart}) => {
         <div className='card'>
             <div className='card-content'>
                 <div className='content'>
-                    <h1>Start the quiz</h1>
+                    <h1 className="start-h1">Start the quiz</h1>
                     <p>Good Luck!</p>
                     <button className='button is-info is-medium'
                     onClick={onQuizStart}>
