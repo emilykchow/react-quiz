@@ -1,4 +1,24 @@
-.header-container{
+.App {
+    display: flex;
     text-align: center;
-    margin: 20px;
+    justify-content: center;
+}
+  
+  
+.card {
+    margin-top: 40px;
+    max-width: 70vw;
+    height: 40vh;
+    width: 80%;
+    text-align: center;
+    
+}
+.card .card-content{
+    box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
+    height: 40vh;
+}
+
+body {
+    background-color: rgb(255, 204, 153);
+    height: 100vh;
 }

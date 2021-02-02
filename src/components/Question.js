@@ -18,7 +18,7 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions,
   }, [data])
    
 
-    const changeHandler = (e) => {
+    const changeAnswerHandler = (e) => {
       setSelected(e.target.value);
       
       if (error) {
@@ -58,10 +58,11 @@ const Question = ({ data, onAnswerUpdate, numberOfQuestions,
           <div className="control" ref={radiosWrapper}>
             {data.choices.map((choice, i) => (
               <label className="radio has-background-light" key={i}>
-                <input type="radio" name="answer" value={choice} onChange={changeHandler} />
+                <input type="radio" name="answer" value={choice} onChange={changeAnswerHandler} />
                 {choice}
               </label>
             ))}
+
           </div>
            {error && <div className="has-text-danger">{error}</div>}
           <button className="button is-link is-medium is-fullwidth mt-4" onClick={nextClickHandler}>Next</button>

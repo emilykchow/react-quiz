@@ -25,10 +25,10 @@ const [correctAnswers, setCorrectAnswers] = useState('');
         <div class="card">
   <div class="card-content">
     <div class="content">
-                    <h1>Your result is</h1>
-                    <p>You scored {correctAnswers} out 0f {data.length}</p>
+                    <h1>Results:</h1>
+                    <p>You scored {correctAnswers} out of {data.length}</p>
                     <p> {Math.floor((correctAnswers / data.length) * 100)} %</p>
-                    <p> your time is {formatTime(time)}</p>
+                    <p> The time you took to finish the quiz: {formatTime(time)}</p>
                     <button className="button is-primary" onClick={onReset}> Try Again</button>
                     <button className="button is-link" onClick={onAnswerUpdate}> Check Answer</button>
     </div>
