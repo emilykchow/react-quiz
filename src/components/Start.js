@@ -23,7 +23,7 @@ const Start = ({ onQuizStart, toggleTheme, onChangeThemeName, togglingTheme}) =>
                         <p>Good Luck!</p>
                         <br />
                         <br />
-                        <button className='button is-info2 is-medium'>
+                        <button className='button is-info2 is-medium' onClick={onQuizStart}>
                             Start
                         </button>
                     </div>
