@@ -1,24 +1,44 @@
+.light-theme {
+    --clr-background: #bbdfc8 !important; 
+    --clr-button: white !important;
+    --clr-card: #ffc478 !important;
+}
+
+
+.dark-theme {
+    --clr-background: #1b262c !important;
+    --clr-button: white !important;
+    --clr-card: #3282b8 !important;
+}
+
 .App {
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.card {
+.is-info2 {
+    background-color: var(--clr-button) !important;
+}
+
+.App .card {
     margin-top: 40px;
     max-width: 70vw;
     height: 55vh;
     width: 80%;
     text-align: center;
+    background-color: var(--clr-card);
+    width: 50vw;
     
 }
 .card .card-content{
     box-shadow: 5px 10px rgba(0, 0, 0, 0.2);
     height: 55vh;
+    width: 50vw;
 }
 
 body {
-    background-color: rgb(255, 204, 153);
+ background-color: var(--clr-background);
     height: 100vh;
 }
 
@@ -33,4 +53,12 @@ label.radio {
 
 .start-h1{
     margin-top: 70px;
+}
+
+.toggle-btn {
+    margin-top: 15px;
+}
+
+.next-btn {
+    background-color: #161D6F !important;
 }
