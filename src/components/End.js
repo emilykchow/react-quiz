@@ -5,7 +5,6 @@ const End = ({results, data, onReset, onAnswerUpdate, time, toggleTheme }) => {
     
     
 const [correctAnswers, setCorrectAnswers] = useState('');
-        
 
         useEffect(() => {
             

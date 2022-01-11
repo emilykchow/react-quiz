@@ -1,8 +1,5 @@
 import React from 'react';
 import "./Start.css";
-// import 'bootstrap/dist/css/bootstrap.min.css';
-// import Switch from 'react-bootstrap-switch';
-
 
 
 const Start = ({ onQuizStart, toggleTheme, onChangeThemeName, togglingTheme}) => {
