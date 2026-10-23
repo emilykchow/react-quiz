@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Prerequisites
+
+Use Node.js 22 for this project. If you use nvm, run `nvm install` and `nvm use` in the project directory; the required version is specified in `.nvmrc`.
+
 ## Available Scripts
 
 In the project directory, you can run:
